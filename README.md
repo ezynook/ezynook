@@ -6,7 +6,6 @@
 * [Hadoop for small business](https://github.com/ezynook/docker-bigdata)
 * [Password Genarator](https://github.com/ezynook/password-center-php)
 * [PySpark Tutorial](https://github.com/ezynook/pyspark)
-* [Python Flask Tutorial](https://github.com/ezynook/flask-tutorial)
 * [Public docker repositories](https://github.com/users/ezynook/packages/container/package/ezynook.github.io%2Fapp)
 ### Non-Open Source Projects 🔵
 * [Big Data big-query tools](https://github.com/ezynook/bigdata-query-flask)
