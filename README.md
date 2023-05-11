@@ -1,4 +1,4 @@
-[<img src="https://raw.githubusercontent.com/docker-library/docs/c350af05d3fac7b5c3f6327ac82fe4d990d8729c/docker/logo.png" width="46">](https://hub.docker.com/u/ezynook)
+[<img src="https://raw.githubusercontent.com/docker-library/docs/c350af05d3fac7b5c3f6327ac82fe4d990d8729c/docker/logo.png" width="56">](https://hub.docker.com/u/ezynook)
 ## pasit.dev 👋
 ### Open Source Project 🟢
 * [Open-Data](https://github.com/ezynook/open-data)
