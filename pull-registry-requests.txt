@@ -1,0 +1,19 @@
+--------------------------------
+วิธีการติดต่อชำระ Private Container
+--------------------------------
+1. ติดต่อผู้พัฒนาได้ที่ LineID: 0836590338
+2. ผู้พัฒนาจะส่ง Personal Access Token กลับมาให้ (example: ghp_**********************)
+3. นำ Personal Access Token ไป Login ที่เครื่องตัวเอง
+-------------------------------
+Secure Shell หรือ Command prompt
+-------------------------------
+$ docker login ghcr.io
+username: ezynook
+Password : Personal Access Token ที่ได้มาจากผู้พัฒนา (example: ghp_**********************)
+หากสำเร็จจะแสดแบบนี้
+Login Successed
+------------
+Pull Image
+------------
+#ผู้พัฒนาจะแจ้งลิ้งให้หลังจากส่ง Personal Access Token
+$ docker pull ghcr.io/ezynook/<package>/<application>:<version>
