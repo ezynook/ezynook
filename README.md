@@ -15,7 +15,7 @@
 ---
 <u>pasit.dev | <strong>Pasit Yodsoi</strong></u>
 
-[✅ Allow Pull Requests](https://github.com/settings/tokens)
+<a href="https://raw.githubusercontent.com/ezynook/ezynook/main/pull-registry-requests.txt" target="_blank">✅ Pull Requests</a>
 
 | #        |      Scope          |
 |----------|:-------------------:|
