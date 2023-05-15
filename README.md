@@ -13,4 +13,11 @@
 * [Restaurant Management System](https://github.com/ezynook/ires) ระบบบริหารจัดการร้านอาหารครบวงจร
 
 ---
-<u>pasit.dev <strong>Pasit Yodsoi</strong></u>
+<u>pasit.dev | <strong>Pasit Yodsoi</strong></u>
+
+[✅ Allow Pull Requests](https://github.com/settings/tokens)
+
+| #        |      Scope          |
+|----------|:-------------------:|
+| Classic Token |  read:packages |
+|          |    write:packages   |
