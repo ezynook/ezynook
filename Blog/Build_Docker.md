@@ -105,7 +105,7 @@ services:
 
     #หากทำ Healthy Check ใน Dockerfile แล้วไม่จำเป็นต้องใช้คำสั่งนี้
     healthcheck:
-      test: <Any linux command to Check || exit 1
+      test: <Any linux command to Check> || exit 1
       interval: 15s
       retries: 3
       start_period: 10s
