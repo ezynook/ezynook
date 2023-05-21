@@ -17,6 +17,10 @@ Contact us.
 ### Line
 <img src="https://github.com/ezynook/ezynook/blob/main/line_qrcode.jpg" width="150">
 
+### Facebook
+
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" width="100">](https://www.facebook.com/pasit.yodsoi/)
+
 ---
 <u>pasit.dev | <strong>Pasit Yodsoi</strong></u>
 
