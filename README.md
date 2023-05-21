@@ -19,7 +19,9 @@
 
 Line QRCode
 
-<img src="https://github.com/ezynook/ezynook/blob/main/line_qrcode.jpg" width="100">
+<a href="#">
+  <img src="https://github.com/ezynook/ezynook/blob/main/line_qrcode.jpg" width="100">
+</a>
 
 Facebook
 
