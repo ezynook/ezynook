@@ -13,7 +13,9 @@
 * [Restaurant Management System](https://github.com/ezynook/ires) ระบบบริหารจัดการร้านอาหารครบวงจร
 * [Stage Chord Searcher](https://github.com/ezynook/stage-chord-searching) ระบบสำหรับนักดนตรี เพื่อใช้ในการจัดการ Private Chord ทำเป็น Server Chord เป็นของตัวเอง สามารถสอบถามการใช้งานเพิ่มเติมได้จากผู้พัฒนา
 
-Contact us.
+---
+
+> ### Contact us.
 
 Line QRCode
 
