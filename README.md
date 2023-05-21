@@ -14,12 +14,14 @@
 * [Stage Chord Searcher](https://github.com/ezynook/stage-chord-searching) ระบบสำหรับนักดนตรี เพื่อใช้ในการจัดการ Private Chord ทำเป็น Server Chord เป็นของตัวเอง สามารถสอบถามการใช้งานเพิ่มเติมได้จากผู้พัฒนา
 
 Contact us.
-Line QR-Code
-<img src="https://github.com/ezynook/ezynook/blob/main/line_qrcode.jpg" width="150">
+
+Line QRCode
+
+<img src="https://github.com/ezynook/ezynook/blob/main/line_qrcode.jpg" width="100">
 
 Facebook
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" width="100">](https://www.facebook.com/pasit.yodsoi/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/1024px-Facebook_Logo_%282019%29.png" width="80">](https://www.facebook.com/pasit.yodsoi/)
 
 ---
 <u>pasit.dev | <strong>Pasit Yodsoi</strong></u>
