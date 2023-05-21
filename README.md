@@ -11,6 +11,11 @@
 * [Big Data big-query tools](https://github.com/ezynook/bigdata-query-flask) ระบบใช้สำหรับ Query ข้อมูล โดยใช้ภาษา SQL Statement สำหรับฐานข้อมูลขนาดใหญ่ (Big Data) หากคุ้นเคยกับ Hue หรือ Impala โดยตัวที่ผมพัฒนาขึ้นมานี่ใช้งานร่วมกับ TrinoDB ซึ่งมีความเร็วเป็นอันดับต้นๆของโลก โดยภาษาที่ใช้ในการพัฒนาหลักๆคือ Java, Python
 * [Service Management System](https://github.com/ezynook/service) ระบบบริหารงานซ่อมสำหรับองค์กรหรือ Helpdesk
 * [Restaurant Management System](https://github.com/ezynook/ires) ระบบบริหารจัดการร้านอาหารครบวงจร
+* [Stage Chord Searcher](https://github.com/ezynook/stage-chord-searching) ระบบสำหรับนักดนตรี เพื่อใช้ในการจัดการ Private Chord ทำเป็น Server Chord เป็นของตัวเอง สามารถสอบถามการใช้งานเพิ่มเติมได้จากผู้พัฒนา
+
+Contact us.
+### Line
+<img src="https://github.com/ezynook/ezynook/blob/main/line_qrcode.jpg" width="150">
 
 ---
 <u>pasit.dev | <strong>Pasit Yodsoi</strong></u>
