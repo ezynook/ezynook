@@ -1,0 +1,40 @@
+ส่งเมล์ Linux
+	1. Install ssmtp
+		- Link https://pkgs.org/search/?q=ssmtp
+	2. vi /etc/ssmtp/revaliases
+		- Add New -> Admin_Master:std.covid.info@gmail.com:smtp.gmail.com:587
+	3. vi /etc/ssmtp/ssmtp.conf
+		- mkdir -p /etc/pki/tls/certs/
+		- touch /etc/pki/tls/certs/ca-bundle.crt
+		- Add new
+			root=std.covid.info@gmail.com
+			FromLineOverride=YES
+			mailhub=smtp.gmail.com:587
+			UseSTARTTLS=YES
+			AuthUser=std.covid.info@gmail.com
+			AuthPass=21WQsaXZ
+			TLS_CA_File=/etc/pki/tls/certs/ca-bundle.crt
+	4. 
+		- postmaster:	root
+
+วิธีแก้หากติด Authen 2 Factor SMTP Gmail
+	- https://www.google.com/settings/security/lesssecureapps
+	- https://accounts.google.com/DisplayUnlockCaptcha
+
+
+SendMail pattern
+
+#!/bin/bash
+
+read -p "Enter Subject: " SJ
+read -p "Enter Body message: " MSG
+
+echo "Subject: $SJ
+From: std.covid.info@gmail.com
+
+$MSG" > msgtest.txt
+ssmtp ezynook@gmail.com < msgtest.txt
+echo "====================
+Email is Sended!
+===================="
+rm -f msgtest.txt

@@ -1,0 +1,19 @@
+hostname;visible;ip;type;port;hostgroup;template;community
+Zabbix.Test1;behind1;172.19.23.101;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test2;behind2;172.19.23.102;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test3;behind3;172.19.23.103;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test4;behind4;172.19.23.104;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test5;behind5;172.19.23.105;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test6;behind6;172.19.23.106;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test7;behind7;172.19.23.107;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test8;behind8;172.19.23.108;Agent;10050;Hypervisors,Templates,xxx;Linux by Zabbix agent;
+Zabbix.Test9;behind9;172.19.23.109;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test10;behind10;172.19.23.110;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test11;behind11;172.19.23.111;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test12;behind12;172.19.23.112;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test13;behind13;172.19.23.113;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test14;behind14;172.19.23.114;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test15;behind15;172.19.23.115;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test16;behind16;172.19.23.116;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test17;behind17;172.19.23.117;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public
+Zabbix.Test18;behind18;172.19.23.118;SNMP;161;Linux By SNMP,Global,Virtual machines;Linux SNMP;public

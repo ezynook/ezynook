@@ -1,0 +1,12 @@
+If Condition Shell Script
+
+-n VAR - ค่าเป็นจริงถ้าค่าตรงกับตัวแปร
+-z VAR - เป็นเท็จถ้าค่าไม่ตรงกับตัวแปร
+STRING1 == STRING2 - เป็นจริงถ้าค่า 2 ค่าตรงกัน (String only)
+STRING1 != STRING2 - เป็นเท็จถ้าค่า 2 ค่าไม่ตรงกัน (String only)
+INTEGER1 -eq INTEGER2 (==)
+INTEGER1 -gt INTEGER2 (>)
+INTEGER1 -lt INTEGER2 (<)
+INTEGER1 -ge INTEGER2 (>=)
+INTEGER1 -le INTEGER2 (<=)
+INTEGER1 -ne INTEGER2 (!=)

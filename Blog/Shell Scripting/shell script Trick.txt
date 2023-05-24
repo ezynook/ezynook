@@ -1,0 +1,7 @@
+Concat Shell Script
+  a="Hello"
+  b="World"
+  c="${a} / ${b}"
+Cut grep
+  $ echo "abcdefghi" | cut -c2-6
+  bcdef

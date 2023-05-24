@@ -1,0 +1,26 @@
+วิธีทำ Shell Script ให้รันบน SystemD
+
+Step1 สร้างไฟล์ Shell Script
+	- sudo vi /usr/bin/memory.sh (ใส่โค๊ดที่จะใช้ในการเช็ค Service ต่างๆ)
+	- sudo chmod 775 /usr/bin/memory.sh 
+Step2 สร้าง Systemd ไฟล์
+	- sudo vi /lib/systemd/system/memory.service 
+	- ใส่ Command
+[Unit]
+	Description=MemoryChecker
+	After=systemd-journald.service
+	After=systemd-networkd.service
+
+[Service]
+	TimeoutStopSec=5
+	Restart=always
+	RestartSec=30s
+	ExecStart=/usr/bin/memory.sh
+
+[Install]
+	WantedBy=multi-user.target
+Step3 Enable New Service
+	- sudo systemctl daemon-reload 
+	- sudo systemctl enable memory.service 
+	- sudo systemctl start memory.service
+	- sudo systemctl status memory.service 

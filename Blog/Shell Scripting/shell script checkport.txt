@@ -1,0 +1,26 @@
+วิธีการทำ Schedule Check Protocal หรือ Port Running ถ้าผิดพลาด Restart Automation
+
+===========Install nmap===============
+yum install nmap #Centos/RHEL
+apt-get install nmap #Debian/Ubuntu
+===========Install nmap===============
+============Script .sh================
+<--
+SERVER=IP เครื่องที่ต้องการ
+PORT=80
+state=`nmap -p $PORT $SERVER | grep "$PORT" | grep open`
+if [ -z "$state" ]; then
+  systemctl restart httpd
+else
+  exit 1
+fi
+-->
+#Save File ไว้ /path/filename.sh
+#sudo chmod 775 filename.sh
+จากนั้นไปตั้งค่า Task ใน Crontab
+#crontab -e
+Add new line
+* * * * * /path/filename.sh
+(* * * * * เป็นช่วงเวลาที่เราต้องการให้ระบบเข้าไปเช็คสถานะ 
+ให้ไปหาวิธีการใน Google |https://crontab.guru|)
+============Script .sh================
