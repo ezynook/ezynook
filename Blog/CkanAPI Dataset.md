@@ -1,7 +1,7 @@
 ## 📚 Data Explorer in CKAN Open-D
 
 ---
-### ✅ ต้องไปสร้าง Dataset ใน Web UI แบบ Manual ก่อน โดยเลือก Datatype เป็น CSV, XLSX เท่านั้น
+### ✅ สร้าง Dataset ใน Web UI แบบ Manual ก่อน โดยเลือก Datatype เป็น CSV, XLSX เท่านั้น เพื่อใช้งาน Data Explorer
 
 __ฐานข้อมูลที่เกี่ยวข้อง (schema.table)__
 
@@ -34,7 +34,7 @@ __Data Explorer Columes__
 |-----|------------|---------------------------------|
 | 1   | NULL       | bla bla                         |
 
-# Render WebUi Only
+# API
 
 
 ```python
@@ -48,7 +48,7 @@ import json
 import requests
 
 USERNAME='ckan'
-PASSWORD='clan'
+PASSWORD='ckan'
 IPADDR='192.168.10.98'
 DB='datastore'
 #datastore.package_id
@@ -83,7 +83,7 @@ if __name__ == '__main__':
     obj = SDC_API()
 ```
 
-# Render WebUI and Transfer file
+# API and Dataset
 
 
 ```python
@@ -96,7 +96,7 @@ from urllib.parse import quote
 
 USERNAME='ckan'
 PASSWORD='ckan'
-IPADDR='192.168.10.47'
+IPADDR='192.168.10.98'
 DB='datastore'
 #datastore.package_id
 TABLE_ID="7654c4b2-5ef7-4e93-affe-09acbb06402a"
@@ -114,9 +114,13 @@ class SDC:
         return engine
     
     def getData(self):
-        df = pd.read_json("http://engineer.da.co.th/api_json.php?all")
+        url = "http://demo-cinspire.myddns.me:9400/json/MEA/usage_distict"
+        response = requests.get(url, auth=("admin", "Dci@2560"), verify=False)
+        data = response.json()
+        data1 = data['MEA.usage_distictResponse']['MEA.usage_distictOutput']['MEA.row']
+        #Append to DataFrame
+        df = pd.DataFrame(data1)
         os.system(f"rm -f {FILE_PATH}*")
-        df = df[:3]
         df.to_csv(f"{FILE_PATH}{FILE_NAME}", index=False)
         print(f"Replace {FILE_NAME} Success")
         self.editDataExplorer(df)
@@ -124,7 +128,6 @@ class SDC:
     def editDataExplorer(self, df):
         df.insert(0, '_id', df.index)
         df.insert(1, '_full_text', np.nan)
-        df = df[:3]
         df.to_sql(f"{TABLE_ID}", self.Connect(), if_exists='replace', index=False)
         print("Success Append Data Explorer")
         
