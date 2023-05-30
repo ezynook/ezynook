@@ -93,6 +93,8 @@ import numpy as np
 import os
 from sqlalchemy import create_engine
 from urllib.parse import quote
+import json
+import requests
 
 USERNAME='ckan'
 PASSWORD='ckan'
