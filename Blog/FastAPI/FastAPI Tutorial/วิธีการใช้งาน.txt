@@ -1,0 +1,4 @@
+[เพิ่มข้อมูล Router และ Import ในไฟล์ Main]
+    from routers import ... ... filename.py
+    app.include_router(filename.router)
+[Templete สำหรับใช้ในทุกๆ API]

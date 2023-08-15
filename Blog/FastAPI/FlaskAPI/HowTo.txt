@@ -1,0 +1,20 @@
+pip install flask
+
+nano project.py
+
+#Code----------------
+from flask import Flask
+
+app = Flask(__name__)
+
+
+@app.route('/') #Router
+def hello():
+    #Something Function
+
+#Code--------------
+export FLASK_APP=project
+export FLASK_ENV=development
+flask run --host=0.0.0.0
+flask --app project run --host=0.0.0.0
+

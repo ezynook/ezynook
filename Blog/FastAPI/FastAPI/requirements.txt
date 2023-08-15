@@ -1,0 +1,6 @@
+fastapi[all]
+trino
+thrift
+jsons
+uvicorn[standard]
+pandas

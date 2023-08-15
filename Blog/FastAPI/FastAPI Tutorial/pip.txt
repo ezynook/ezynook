@@ -1,0 +1,17 @@
+pip install pymongo
+pip install thrift
+pip install requests
+pip install trino
+pip install selenium webdriver-manager
+pip install sqlalchemy
+pip install pymysql
+pip install pyhive
+pip intsall fastapi
+pip install uvicorn[standard]
+pip install pandas
+pip install cx_Oracle
+conda install -c conda-forge thrift_sasl
+pip install jsons
+conda install -c conda-forge bson
+conda install -c conda-forge sasl
+pip install pyodbc
