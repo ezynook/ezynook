@@ -6,7 +6,7 @@ Data Engineer, Fullstack developer
 
 I have a strong background in `Information Technology` and a deep passion for data management and engineering solutions. My expertise lies in building efficient data pipelines, optimizing database performance, and transforming raw data into actionable insights. I have hands-on experience with `SQL`, `Python`, `Apache Spark`, and various cloud platforms, `GenAI` to develop scalable data solutions. Continuously striving to enhance my skills in data architecture and analytics, I enjoy leveraging `Big data` technologies to tackle complex challenges. Additionally, I have over five years of experience as a `Full Stack Developer`, building robust and scalable applications across the technology stack.
 
-* 🌍  I'm based in Bangkok, Thailand
+* 🌍  I'm based in `Bangkok, Thailand`
 * 🖥️  See my portfolio at [Pasitdev](http://pasitdev.com)
 * ✉️  You can contact me at [pasit@pasitdev.com](mailto:pasit@pasitdev.com)
 * 👨🏻‍💻  Freelance [Fastwork](https://fastwork.co/user/pasitdev)
