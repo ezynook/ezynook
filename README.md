@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Data Engineer, Fullstack developer
 ----------------------------------
 
-I have a strong background in Information Technology and am highly passionate about data management and engineering solutions. I specialize in building data pipelines, optimizing database performance, and transforming raw data into actionable insights. I have experience working with tools such as SQL, Python, Apache Spark, and various cloud platforms to create scalable data solutions. Continuously working to enhance my skills in data architecture and analytics. I enjoy working with big data technologies to solve complex data problems.
+I have a strong background in `Information Technology` and a deep passion for data management and engineering solutions. My expertise lies in building efficient data pipelines, optimizing database performance, and transforming raw data into actionable insights. I have hands-on experience with `SQL`, `Python`, `Apache Spark`, and various cloud platforms, `GenAI` to develop scalable data solutions. Continuously striving to enhance my skills in data architecture and analytics, I enjoy leveraging big data technologies to tackle complex challenges. Additionally, I have over five years of experience as a `Full Stack Developer`, building robust and scalable applications across the technology stack.
 
 * 🌍  I'm based in Bangkok, Thailand
 * 🖥️  See my portfolio at [Pasitdev](http://pasitdev.com)
